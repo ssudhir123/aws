@@ -1,0 +1,16 @@
+et-ec2-instances=/Users/sudhir/work/aws-utils/get-ec2-instances.sh
+pcl='/Users/sudhir/work/tools/pcl aws --sandbox-user --domain NAEAST --sid v022803'
+run-help=man
+ssh-agg-node='ssh-aws ec2-user@3.237.1.192'
+ssh-aws='ssh -i /Users/sudhir/work/.keys/su-mini-mac.pem'
+ssh-node1='ssh-aws ec2-user@3.234.243.24'
+ssh-node2='ssh-aws ec2-user@34.239.173.30'
+ssh-node3='ssh-aws ec2-user@3.239.98.22'
+teesta='cd /Users/sudhir/work/AI-ML/fedLearning/teesta/'
+tunnel-node1='ssh-aws -N -L 3306:localhost:3306 ec2-user@3.234.243.24'
+tunnel-node2='ssh-aws -N -L 3306:localhost:3306 ec2-user@34.239.173.30'
+tunnel-node3='ssh-aws -N -L 3306:localhost:3306 ec2-user@3.239.98.22'
+which-command=whence
+(base) sudhir@sudhirs-MacBook-Pro ~ % cd /Users/sudhir/work/.keys/su-mini-mac.pem
+cd: not a directory: /Users/sudhir/work/.keys/su-mini-mac.pem
+(base) sudhir@sudhirs-MacBook-Pro ~ % cd /Users/sudhir/work/.keys/
